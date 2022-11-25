@@ -1,0 +1,35 @@
+.HeaderTop{
+    height: 60px;
+    background-color: black;
+    color:#fa8035;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-image: url("../../img/Blackfriday.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.HeaderMiddle{
+    height: 60px;
+    background-color: #e8e1ff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderMiddle img{
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: calc(50% - 30px);
+}
+.nav{
+    height: 60px;
+    background-color: violet;
+    color: brown;
+}

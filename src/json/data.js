@@ -1,4 +1,5 @@
-[
+ const productdata = {
+    "product":[
     {
         "id":0,
         "name":"APPLE MGNT3TU/A Mac Mini APPLE M1 8C GPU 8 GB 512 GB SSD",
@@ -2102,3 +2103,6 @@
         "topCategory":"otomotiv"
     }                                                                                                                                                                                                                                                                                                                 
 ]
+}
+
+export default productdata;

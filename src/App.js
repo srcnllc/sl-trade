@@ -1,8 +1,17 @@
-import HomePage from './pages/HomePage/HomePage';
+import Header from './components/Header/Header';
+import Content from './pages/Content/Content';
+import {
+  BrowserRouter
+} from 'react-router-dom'
+
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+
+    <BrowserRouter>
+      <Header/>
+      <Content/>
+     </BrowserRouter>
     </div>
   );
 }

@@ -1,13 +1,19 @@
 import React from 'react'
-import Header from '../../components/Header/Header'
+import './HomePage.css'
 
 function HomePage() {
   return (
-    <>
-    <section>
-        <Header />
-    </section>
-    </>
+    <main>
+      <section>
+        
+      </section>
+      <section>
+        home page
+      </section>
+      <section>
+        home page
+      </section>
+    </main>
   )
 }
 

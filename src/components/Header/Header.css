@@ -16,7 +16,7 @@
 }
 .HeaderMiddle{
     height: 60px;
-    background-color: #e8e1ff;
+    background-color: #c7c5cc;
     display: flex;
     justify-content: space-between;
 }
@@ -54,8 +54,35 @@
     position: absolute;
     left: calc(50% - 30px);
 }
-.nav{
+.headerbottom{
+    width: 100%;
     height: 60px;
-    background-color: violet;
-    color: brown;
+    background-color: #f0edfa;
+}
+.nav{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+}
+.nav .navlist{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0px 5px;
+}
+.nav .navlist img{
+    width:2.5em;
+    height: 2.5em;
+    margin-right: 5px;
 }

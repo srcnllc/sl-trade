@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export const List = [
     {
@@ -91,8 +93,10 @@ function HeaderBottom() {
         {List.map((listItem,i)=>{
             return(
                 <div className='navlist' key={i}>
-                    <img src={listItem.url} alt={listItem.name}/>
-                    <li >{listItem.name}</li>
+                     <Link className='navlist' to={`/sl-trade/${listItem.name}`}>
+                        <img src={listItem.url} alt={listItem.name}/>
+                        <li >{listItem.name}</li>
+                    </Link>
                 </div>
             )
         })}

@@ -1,15 +1,13 @@
-import { createContext, useState } from "react";
-import productdata from '../json/data'
+import { createContext } from "react";
+import productdata from '../json/data.json'
 
 
 export const ProductContext = createContext()
 
 const Provider = ({children})=>{
-    const [product]=useState(productdata)
-    console.log(product)
-    
+   
     const data={
-        product
+        productdata
     }
     return(
         <ProductContext.Provider value={data}>

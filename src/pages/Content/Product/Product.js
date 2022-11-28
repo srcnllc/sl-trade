@@ -1,9 +1,13 @@
 import React from 'react'
+import { useParams} from "react-router-dom";
+
 
 function Product() {
+  let { productName } = useParams();
+
   return (
     <>
-       product
+       <h1>{productName}</h1>
     </>
   )
 }

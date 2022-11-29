@@ -3,6 +3,7 @@ import './Kargo.css'
 import { FaUserAlt } from "react-icons/fa";
 import { BiTimer } from "react-icons/bi";
 import { FiBox } from "react-icons/fi";
+import { BsBoxArrowInLeft } from "react-icons/bs";
 
 
 
@@ -25,8 +26,8 @@ function Kargo() {
         <p><span>Ücretsiz Kargo</span>Satın aldığınız ürünlerinizde ücretsiz kargo fırsatlarından yararlanabilirsiniz.</p>
     </div>
     <div className='kargoCard'>
-        <FaUserAlt className='karticon' />
-        <p><span>Kolay İade</span>Satın aldığınız ürününüzü 30 gün içinde değiştirebilirsiniz.</p>
+        <BsBoxArrowInLeft className='karticon' />
+        <p><span>Kolay İade</span>Ürünlerinizi teslim aldıktan aldığınız veya siparişi verdiğiniz tarihten itibaren 14 gün içinde iade edebilirsiniz. </p>
     </div>
     </div>
     </main>

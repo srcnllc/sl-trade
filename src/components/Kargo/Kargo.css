@@ -6,8 +6,7 @@
 .kargoMain>p{
     width: 100%;
     padding: 10px;
-    border-bottom: 2px solid black;
-    border-radius: 1em ;
+    border-bottom: 2px dotted black;
     color: black;
     font-weight: bold;
     font-size: 1.3em;
@@ -38,6 +37,7 @@
     padding: 0 2px;
     color: black;
     font-weight: bold;
+    font-size: 0.9em;
 }
 .kargoCard p span{
  color: #10bc49;

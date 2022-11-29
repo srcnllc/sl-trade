@@ -23,8 +23,8 @@ function Product() {
           <ul>
         {altlist.map((item) => item.test.map((i, index) => {
           return (
-            <div className='navlist' key={index}>
-            <Link className='navlist' to={`/sl-trade/${item.name}/${i.name}`}>
+            <div className='navlistalt' key={index}>
+            <Link to={`/sl-trade/${item.name}/${i.name}`}>
               <img src={i.image} alt={i.name} />
               <li >{i.name}</li>
             </Link>

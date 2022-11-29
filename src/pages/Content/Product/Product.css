@@ -2,7 +2,6 @@
     width: 100%;
     height: auto;
     display: flex;
-    background-color: blueviolet;
 }
 .product .altMenü{
     width: 20%;
@@ -15,14 +14,26 @@
 .product .altMenü ul{
     list-style: none;
     width: 100%;
-    text-align: center;
-    border: 1px solid red;
+    
 }
-.product .altMenü ul li{
+.product .altMenü ul .navlistalt a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1em .3em;
+    display: flex;
+    align-items: center;
+
+}
+.product .altMenü ul .navlistalt li{
     list-style: none;
     width: 100%;
-    text-align: center;
-    border: 1px solid red;
+    margin-left: .4em;
+}
+.product .altMenü ul .navlistalt:hover{
+    background-color: #95949b;
+    border-radius: 10px;
 }
 .Card{
     flex: 1;

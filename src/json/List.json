@@ -26,12 +26,12 @@
                 "image": "https://s4.gifyu.com/images/airpods.webp"
             },
             {
-                "name": "Televizyon & Ses",
-                "image": "/category/sound.png"
+                "name": "Televizyon&Ses",
+                "image": "https://s1.gifyu.com/images/sound.webp"
             },
             {
-                "name": "Ev Aletleri",
-                "image": "/category/householdappliances.png"
+                "name": "EvAletleri",
+                "image": "https://s1.gifyu.com/images/householdappliances.webp"
             }
         ]
     },
@@ -41,15 +41,15 @@
         "test": [
             {
                 "name": "Mobilya",
-                "image": "/category/wardrobe.png"
+                "image": "https://s4.gifyu.com/images/wardrobe.webp"
             },
             {
-                "name": "Dekorasyon & Aydınlatma",
-                "image": "/category/lamb.png"
+                "name": "Dekorasyon&Aydınlatma",
+                "image": "https://s4.gifyu.com/images/lamb.webp"
             },
             {
-                "name": "Ev Aletleri",
-                "image": "/category/householdappliances.png"
+                "name": "EvAletleri",
+                "image": "https://s1.gifyu.com/images/householdappliances.webp"
             }
         ]
     },
@@ -58,16 +58,16 @@
         "url": "https://s4.gifyu.com/images/annebebek.webp",
         "test": [
             {
-                "name": "Islak Mendil",
-                "image": "/category/hand.png"
+                "name": "IslakMendil",
+                "image": "https://s4.gifyu.com/images/hand.webp"
             },
             {
-                "name": "Bebek Giyim",
-                "image": "/category/childshoes.png"
+                "name": "BebekGiyim",
+                "image": "https://s1.gifyu.com/images/childshoes.webp"
             },
             {
-                "name": "Hamile Giyim",
-                "image": "/category/pregnant.png"
+                "name": "HamileGiyim",
+                "image": "https://s4.gifyu.com/images/pregnant.webp"
             }
         ]
     },
@@ -76,16 +76,16 @@
         "url": "https://s4.gifyu.com/images/kozmetik.webp",
         "test": [
             {
-                "name": "Parfüm & Deodorant",
-                "image": "/category/parfume.png"
+                "name": "Parfüm&Deodorant",
+                "image": "https://s4.gifyu.com/images/parfume.webp"
             },
             {
-                "name": "Saç Bakım",
-                "image": "/category/care.png"
+                "name": "SaçBakım",
+                "image": "https://s4.gifyu.com/images/care.webp"
             },
             {
-                "name": "Yüz & Vücut Bakım",
-                "image": "/category/woman.png"
+                "name": "Yüz&VücutBakım",
+                "image": "https://s1.gifyu.com/images/woman.webp"
             }
         ]
     },
@@ -94,16 +94,16 @@
         "url": "https://s1.gifyu.com/images/saat.webp",
         "test": [
             {
-                "name": "Altın & Gümüş",
-                "image": "/category/golden.png"
+                "name": "Altın&Gümüş",
+                "image": "https://s4.gifyu.com/images/golden.webp"
             },
             {
                 "name": "Saat",
-                "image": "/category/watch.png"
+                "image": "https://s1.gifyu.com/images/watch.webp"
             },
             {
-                "name": "Güneş Gözlüğü",
-                "image": "/category/glass.png"
+                "name": "GüneşGözlüğü",
+                "image": "https://s1.gifyu.com/images/glass.webp"
             }
         ]
     },
@@ -113,15 +113,15 @@
         "test": [
             {
                 "name": "Fitness",
-                "image": "/category/plates.png"
+                "image": "https://s1.gifyu.com/images/plates.webp"
             },
             {
-                "name": "Spor Giyim & Ayakkabı",
-                "image": "/category/sportshoes.png"
+                "name": "SporGiyim&Ayakkabı",
+                "image": "https://s1.gifyu.com/images/sportshoes.webp"
             },
             {
                 "name": "Bisiklet",
-                "image": "/category/bike.png"
+                "image": "https://s4.gifyu.com/images/bike.webp"
             }
         ]
     },
@@ -131,15 +131,15 @@
         "test": [
             {
                 "name": "Kitap",
-                "image": "/category/books.png"
+                "image": "https://s4.gifyu.com/images/books.webp"
             },
             {
                 "name": "Film",
-                "image": "/category/movie.png"
+                "image": "https://s1.gifyu.com/images/movie.webp"
             },
             {
                 "name": "Müzik",
-                "image": "/category/music.png"
+                "image": "https://s4.gifyu.com/images/music.webp"
             }
         ]
     },
@@ -149,15 +149,15 @@
         "test": [
             {
                 "name": "Aksesuar",
-                "image": "/category/speed.png"
+                "image": "https://s1.gifyu.com/images/speed.webp"
             },
             {
                 "name": "Yağ&Akü",
-                "image": "/category/oil.png"
+                "image": "https://s4.gifyu.com/images/oil.webp"
             },
             {
                 "name": "Navigasyon",
-                "image": "/category/navigation.png"
+                "image": "https://s1.gifyu.com/images/navigation.webp"
             }
         ]
     }

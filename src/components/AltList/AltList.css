@@ -1,0 +1,19 @@
+.navlistalt a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1em .3em;
+    display: flex;
+    align-items: center;
+
+}
+.navlistalt li{
+    list-style: none;
+    width: 100%;
+    margin-left: .4em;
+}
+.navlistalt:hover{
+    background-color: #95949b;
+    border-radius: 10px;
+}

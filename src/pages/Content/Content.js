@@ -5,16 +5,18 @@ import {
     Routes, Route
 } from 'react-router-dom'
 import Basket from '../Basket/Basket'
+import ProductDetail from '../ProductDetail/ProductDetail'
 
 
 function Content() {
   return (
-    <div className='center'>
-        
+    <div className='center'>    
     <Routes>
         <Route exact path="/sl-trade/" element={<HomePage/>} />
         <Route path={`/sl-trade/:productName`} element={<Product/>} />
-        <Route path={`/sepet`} element={<Basket/>} />
+        <Route path={`/sl-trade/:productName/:categoryName`}  element={<Product/>} />
+        <Route path={`/sl-trade/:productName/:categoryName/:name`} element={<ProductDetail/>} />
+        <Route path={`/sl-trade/sepet`} element={<Basket/>} />
     </Routes>
 </div>
     )

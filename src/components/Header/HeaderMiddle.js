@@ -16,7 +16,7 @@ function HeaderMiddle() {
           <FaHome className='icons' />
           <p>Ana Sayfa</p>
         </Link>
-        <Link className='accountbasket' to={`/sepet`}>
+        <Link className='accountbasket' to={`/sl-trade/sepet`}>
           <FaShoppingCart className='icons' />
           <p>sepet</p>
         </Link>

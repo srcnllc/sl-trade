@@ -1,0 +1,14 @@
+.detailpage{
+    width: 80%;
+    height: calc(100vh - 150px);
+    margin: 0 auto;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+.detailpage .leftİmage{
+    width: 50%;
+}
+.detailpage .leftİmage img{
+    width: 200px;
+}

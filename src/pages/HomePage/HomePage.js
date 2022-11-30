@@ -11,10 +11,10 @@ function HomePage() {
   const [ev, setEv] = useState([])
 
   useEffect(() => {
-    setErkek(productdata.filter(item => item.category === "erkekgiyim&aksesuar"))
-    setBayan(productdata.filter(item => item.category === "kadingiyim&aksesuar"))
-    setElektronik(productdata.filter(item => item.category === "televizyon&ses"))
-    setEv(productdata.filter(item => item.category === "evaletleri"))
+    setErkek(productdata.filter(item => item.category === "Erkekgiyim&Aksesuar"))
+    setBayan(productdata.filter(item => item.category === "Kadıngiyim&Aksesuar"))
+    setElektronik(productdata.filter(item => item.category === "Televizyon&Ses"))
+    setEv(productdata.filter(item => item.category === "EvAletleri"))
   }, [])
 
   return (

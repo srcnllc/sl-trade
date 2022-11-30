@@ -4,15 +4,15 @@
         "url": "https://s4.gifyu.com/images/moda.webp",
         "test": [
             {
-                "name": "Ayakkabı&Çanta",
+                "name": "Ayakkabı&Canta",
                 "image": "https://s1.gifyu.com/images/shoes.webp"
             },
             {
-                "name": "KadınGiyim&Aksesuar",
+                "name": "Kadıngiyim&Aksesuar",
                 "image": "https://s1.gifyu.com/images/hat.webp"
             },
             {
-                "name": "ErkekGiyim&Aksesuar",
+                "name": "Erkekgiyim&Aksesuar",
                 "image": "https://s4.gifyu.com/images/man.webp"
             }
         ]

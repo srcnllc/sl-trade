@@ -6,7 +6,9 @@
     border:1px solid rgba(0, 0, 0, .1) ;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
     text-decoration: none;
-
+}
+.Card_item:hover{
+    background-color: #f0edfa;
 }
 .Card_item .link{
     text-decoration:none; 
@@ -36,7 +38,6 @@
     color: rgb(16, 180, 16);
     margin-bottom: 15px;
 }
-
 .Card_item .buton{
     width: 100%;
     padding: 10px;
@@ -46,4 +47,9 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+.Card_item .buton:hover{
+    background-color: #176932;
+
 }

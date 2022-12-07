@@ -8,6 +8,7 @@ import AltList from '../../../components/AltList/AltList';
 
 
 
+
 function Product() {
   let { productName } = useParams("");
   let { categoryName } = useParams("");
@@ -19,8 +20,6 @@ function Product() {
     setAltlist(List.filter((item) => item.name.toLocaleLowerCase() === `${productName.toLowerCase()}`))
   }, [productName, categoryName])
 
-console.log("item",productAltData)
-console.log("url",categoryName)
   return (
     <div className='product'>
       <div className='altMenü'>

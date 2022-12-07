@@ -1,0 +1,95 @@
+.basketpage{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.basketpage .products{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.basketpage .product-name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.basketpage .product-basket .product-img img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.basketpage .product-basket{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #f0edfa;
+    padding: 0 20px;
+    padding: 1em 0;
+}
+.basketpage .products .product-price{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+.basketpage .products .product-price .buttonGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8em;
+    width: 100px;
+}
+.basketpage .products .product-price .buttonGroup .count{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.basketpage .products .product-price .buttonGroup .button{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.basketpage .product-total-price{
+    width:30%;
+    height: 250px;
+    padding: 20px;
+    background-color: #f0edfa;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.basketpage .product-total-price .product-total-detail{
+    border-bottom: 2px solid #c7c5cc;
+    margin-bottom: 10px;
+}
+.basketpage .product-total-price .product-total-detail h3 , .basketpage .product-total-price .product-total-detail p{
+    margin-bottom: 10px;
+}
+.removebasket{
+    font-size: 2em;
+    margin-right: 1.2em;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.removebasket:hover{
+    color: red;
+    transform: rotate(360deg);
+}
+.giriş{
+        width: 80%;
+        position: relative;
+        top: 50%;
+        margin: 0 auto;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.5em;
+        background-color: #c7c5cc;
+        color: black;
+        font-size: 1.6em;
+        font-weight: bold;
+}

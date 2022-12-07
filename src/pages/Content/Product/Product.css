@@ -14,7 +14,6 @@
 .product .altMenü ul{
     list-style: none;
     width: 100%;
-    
 }
 .Card{
     flex: 1;
@@ -26,5 +25,23 @@
     padding: 1.3em 10px;
     margin-right: 5px;
     overflow: scroll;
-
 } 
+@media screen and (max-width: 900px) {
+    .product{
+        display: flex;
+        flex-direction: column;
+    }
+    .product .altMenü{
+        width: 100%;
+        display: flex;
+    }
+    .product .altMenü ul{
+        display: flex;
+    }
+}
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}

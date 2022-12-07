@@ -61,6 +61,7 @@
     text-decoration: none;
     color: black;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .HeaderMiddle .user .accountbasket:hover {
@@ -127,4 +128,54 @@
     width: 2.5em;
     height: 2.5em;
     margin-right: 5px;
+}
+@media screen and (max-width: 900px) {
+    .HeaderTop {
+        font-size: .7em;
+        color: #fff;
+    } 
+    .HeaderMiddle .user .accountbasket {
+        font-size: .9em;
+    }
+}
+@media screen and (max-width: 600px) {
+    .HeaderTop {
+        display: none;
+    } 
+    .HeaderMiddle>.anasayfa>p {
+        font-size: 1.7em;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .HeaderMiddle img {
+        display: none;
+      }
+}
+@media screen and (max-width: 480px) {
+    .HeaderTop {
+        display: none;
+    }    
+    .HeaderMiddle>.anasayfa>p {
+        font-size: 1.3em;
+    }
+    .HeaderMiddle .user {
+        gap: 10px;
+        margin-right: 10px;
+    }
+    .HeaderMiddle .user .accountbasket {
+        padding: 0 2px;
+        font-size: .8em;
+    }
+    .HeaderMiddle .user .accountbasket .icons {
+        font-size: 20px;
+    }
+    .HeaderMiddle img {
+      display: none;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }

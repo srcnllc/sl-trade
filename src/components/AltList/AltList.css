@@ -6,7 +6,6 @@
     padding: 1em .3em;
     display: flex;
     align-items: center;
-
 }
 .navlistalt li{
     list-style: none;
@@ -16,4 +15,20 @@
 .navlistalt:hover{
     background-color: #95949b;
     border-radius: 10px;
+}
+@media screen and (max-width: 1300px) {
+    .navlistalt a{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navlistalt li{
+        margin-top: 1em;
+        margin-left: .4em;
+    }
+}
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 480px) {
+
 }

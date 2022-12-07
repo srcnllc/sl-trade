@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import './Card.css'
 import { Link } from 'react-router-dom'
+import {ProductBasketContext} from '../../context/ProductBasketContext'
 
 function Card({item}) {
+    const {addToCart,basketdata} =useContext(ProductBasketContext)
     return (
         <div className='Card_item'  >
             <Link className='link' to={`/sl-trade/${item.topCategory}/${item.category}/${item.name}`}>
@@ -10,7 +12,7 @@ function Card({item}) {
                 <h2 >{item.name.toUpperCase()}</h2>
                 <p className='price'>{`${item.price} ₺`}</p>
             </Link>
-            <button className='buton' onClick={() => { alert('tıkladnı') }}>SEPETE EKLE</button>
+            <button className='buton' onClick={()=>addToCart(item)}>SEPETE EKLE</button>
         </div>
     )
 }

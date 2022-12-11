@@ -3,15 +3,62 @@ import { useParams } from "react-router-dom";
 import Kargo from '../../components/Kargo/Kargo';
 import productdata from '../../json/data.json'
 import './ProductDetail.css'
-import {ProductBasketContext} from '../../context/ProductBasketContext'
+import { db } from "../../firebase/firebase";
+import { AuthContext } from "../../context/AuthContext";
+import {
+    addDoc,
+    updateDoc,
+    doc,
+    collection,
+    query,
+    where,
+    onSnapshot,
+  } from "firebase/firestore";
 
 
-function ProductDetail() {
-    const {addToCart} =useContext(ProductBasketContext)
+function ProductDetail(item) {
     let { name } = useParams();
     const [detailData, setDetailData] = useState([])
-
-
+    const { currentUser } = useContext(AuthContext);
+    const [cartItems, setCartItems] = useState([]);
+        useEffect(() => {
+        const ref = collection(db, "cart");
+        if (currentUser) {
+          const q = query(ref, where("user", "==", currentUser?.email));
+          const unsub = onSnapshot(q, (snap) => {
+            setCartItems(
+              snap.docs.map((doc) => ({
+                ...doc.data(),
+                product: doc.data().product,
+                id: doc.id,
+              }))
+            );
+          });
+          return unsub;
+        }
+    }, [currentUser]);
+      const addToCart = (idm) => {
+        const ref = collection(db, "cart");
+        const findProduct = cartItems.find((elem) => elem.item.id ===idm.id);
+        if (currentUser) {
+          if (findProduct) {
+            const refe = doc(db, "cart", findProduct.id);
+              const newQuantity = {
+                item: {
+                  ...findProduct.item,
+                quantity: (findProduct.item.quantity += 1),
+              },
+            };
+            updateDoc(refe, newQuantity);
+          } else {
+            addDoc(ref, {
+              item: { ...detailData[0], quantity: 1 },
+              user: currentUser.email,
+            });
+          }
+        }
+      };
+    
     useEffect(() => {
         setDetailData(productdata.filter(item => item.name === `${name}`))
     }, [name])

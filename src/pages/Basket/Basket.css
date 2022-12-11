@@ -65,7 +65,11 @@
     border-bottom: 2px solid #c7c5cc;
     margin-bottom: 10px;
 }
-.basketpage .product-total-price .product-total-detail h3 , .basketpage .product-total-price .product-total-detail p{
+.basketpage .product-total-price h3{
+    margin-bottom: 10px;
+    color: red;
+}
+.basketpage .product-total-price .product-total-detail p{
     margin-bottom: 10px;
 }
 .removebasket{

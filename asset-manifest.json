@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sl-trade/static/css/main.cf73eabc.css",
+    "main.js": "/sl-trade/static/js/main.4747c388.js",
+    "static/media/Blackfriday.jpg": "/sl-trade/static/media/Blackfriday.fce299cf5f171665cb3a.jpg",
+    "static/media/logo.png": "/sl-trade/static/media/logo.714046d3f73ce44533e1.png",
+    "index.html": "/sl-trade/index.html",
+    "main.cf73eabc.css.map": "/sl-trade/static/css/main.cf73eabc.css.map",
+    "main.4747c388.js.map": "/sl-trade/static/js/main.4747c388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf73eabc.css",
+    "static/js/main.4747c388.js"
+  ]
+}

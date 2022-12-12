@@ -16,7 +16,7 @@ import {
   } from "firebase/firestore";
 
 
-function ProductDetail(item) {
+function ProductDetail() {
     let { name } = useParams();
     const [detailData, setDetailData] = useState([])
     const { currentUser } = useContext(AuthContext);
@@ -37,9 +37,9 @@ function ProductDetail(item) {
           return unsub;
         }
     }, [currentUser]);
-      const addToCart = (idm) => {
+      const addToCart = () => {
         const ref = collection(db, "cart");
-        const findProduct = cartItems.find((elem) => elem.item.id ===idm.id);
+        const findProduct = cartItems.find((elem) => elem.item.id === detailData[0].id);
         if (currentUser) {
           if (findProduct) {
             const refe = doc(db, "cart", findProduct.id);

@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import logo from "../../img/logo.png"
 import { Link } from 'react-router-dom'
 import { FaUserAlt,FaShoppingCart, FaHome } from "react-icons/fa";
+import { RiUserReceivedFill } from "react-icons/ri";
 import { auth, provider } from "../../firebase/firebase";
 import { signInWithPopup } from "firebase/auth";
 import { AuthContext } from "../../context/AuthContext";
@@ -34,7 +35,7 @@ function HeaderMiddle() {
         </div>
         ):(
           <div className='accountbasket' onClick={() =>auth.signOut()}>
-          <FaUserAlt className='icons' />
+          <RiUserReceivedFill className='icons' />
           <p>Çıkış Yap</p>
         </div>
         )}

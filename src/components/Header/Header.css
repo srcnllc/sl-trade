@@ -92,7 +92,12 @@
     height: auto;
     background-color: #f0edfa;
 }
-
+.dropdown{
+    display: none;
+}
+#check {
+    display: none;
+}
 .nav {
     width: 90%;
     height: 100%;
@@ -151,7 +156,7 @@
     }
     .HeaderMiddle img {
         display: none;
-      }
+    }
 }
 @media screen and (max-width: 480px) {
     .HeaderTop {

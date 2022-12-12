@@ -26,9 +26,13 @@
         margin-left: .4em;
     }
 }
-@media screen and (max-width: 900px) {
-
-}
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 600px) {
+    .navlistalt a{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navlistalt img{
+        width: 25px;
+        height: 25px;
+    }
 }

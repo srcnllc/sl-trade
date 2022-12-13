@@ -3,7 +3,7 @@
 
 
 ## Merhaba! 👋
-Sl-Trade Komple bir e-ticaret sitesidir.Tamamıyle ürünler lisesi menü ile filtreleme ve sepet detayının olduğu aynı zamanda firebase ile giriş işlemlerinin yapıldığı bir sitedir.
+Sl-Trade Komple bir e-ticaret sitesidir.Tamamıyla ürünler lisesi menü ile filtreleme ve sepet detayının olduğu aynı zamanda firebase ile giriş işlemlerinin yapıldığı bir sitedir.
 
 Demo_Link: https://srcnllc.github.io/sl-trade/
 

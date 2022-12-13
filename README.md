@@ -13,9 +13,9 @@ Site kodlarken;
 -React router-dom  
 -React hooks  
 -Context APİ  
--Json data
+-Json data  
 -Firebase Authentication (Google ile giriş) 
--Firebase Cloud Firestore (Sepetteki ürünler için)
+-Firebase Cloud Firestore (Sepetteki ürünler için)  
 -React icons
 
 kullanılmıştır.  

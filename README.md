@@ -14,7 +14,7 @@ Site kodlarken;
 -React hooks  
 -Context APİ  
 -Json data  
--Firebase Authentication (Google ile giriş) 
+-Firebase Authentication (Google ile giriş)    
 -Firebase Cloud Firestore (Sepetteki ürünler için)  
 -React icons
 
